@@ -1,10 +1,10 @@
-import { Box, Button, Link, SimpleGrid } from '@chakra-ui/core';
+import { Box, Button, Flex, Link, SimpleGrid } from '@chakra-ui/core';
 import { MembersListItem } from './members-list-item';
 
 export function MembersList() {
   return (
     <Box>
-      <SimpleGrid columns={ [1, 2, 3, 4] } mt='40px' gridGap='15px' position='relative' maxHeight='500px' overflow='hidden'>
+      <SimpleGrid columns={ [1, 2, 3, 4] } mt='40px' gridGap='15px' position='relative' maxHeight='500px' overflow='hidden' className='hover-grayscale'>
         <MembersListItem title='Kamran Ahmed' designation='Engineering Manager' company='Tradeling' imageUrl='/avatars/kamran.jpeg' />
         <MembersListItem title='Adnan Ahmed' designation='Engineering Manager' company='Tradeling' imageUrl='/avatars/adnan.jpeg' />
         <MembersListItem title='Zeeshan Ahmed' designation='Senior Software Engineer' company='Tradeling' imageUrl='/avatars/zeeshan.jpeg' />
@@ -20,11 +20,12 @@ export function MembersList() {
         {/*<MembersListItem title='Furqan Zafar' designation='FullStack Engineer' company='AlTayer' imageUrl='/avatars/furqan.jpeg' />*/ }
         {/*<MembersListItem title='Umar Mehmood' designation='Frontend Engineer' company='AlTayer' imageUrl='/avatars/umar.jpg' />*/ }
         {/*<MembersListItem title='Pranjal Baweja' designation='Software Engineer' company='Tradeling' imageUrl='/avatars/pranjal.jpeg' />*/ }
-        <Box pointerEvents='none' position='absolute' bottom={ 0 } height='200px' width='100%' background='linear-gradient(180deg, transparent, black)' />
+        <Box opacity={1} pointerEvents='none' position='absolute' bottom={ 0 } height='200px' width='100%' background='linear-gradient(180deg, transparent, black)' />
       </SimpleGrid>
-      <Button mt='20px' bg='yellow.400' rounded='20px'  px='30px'>
-        All members &rarr;
-      </Button>
+      <Flex alignItems='center' mt='20px' >
+        <Button bg='yellow.400' rounded='20px' px='30px'>All members &rarr;</Button>
+        <Link className='purple-gradient-color' ml='20px'>Become a member</Link>
+      </Flex>
     </Box>
   );
 }
