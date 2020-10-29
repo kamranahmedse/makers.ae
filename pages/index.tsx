@@ -32,7 +32,7 @@ export default function Home() {
           <Flex alignItems='center'>
             <Image className='rounded-full' height='48px' width='48px' src='/avatars/kamran.jpeg' />
             <Text ml='15px' as='span' color='gray.500'>
-              Organized by&nbsp;
+              Run by&nbsp;
               <Link target='_blank' color='gray.300' fontWeight={ 700 } href={ siteConfig.author.twitter }>Kamran</Link>
             </Text>
           </Flex>

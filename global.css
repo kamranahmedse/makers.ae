@@ -16,8 +16,8 @@ body {
   transition: all 500ms;
 }
 
-.hover-grayscale:hover > * {
-  filter: grayscale(99%);
+.hover-grayscale > * {
+  filter: grayscale(70%);
   opacity: 0.8;
 }
 
