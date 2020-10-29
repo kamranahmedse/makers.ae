@@ -24,7 +24,7 @@ export default function Home() {
         </Flex>
 
         <Flex my='40px'>
-          <Heading lineHeight='48px' color='gray.500'><Text as='span' className='yellow-gradient-color'>Makers</Text> is the growing community of <Text as='span' className='purple-gradient-color'>developers</Text> and <Text className='red-gradient-color' as='span'>designers</Text> in UAE. Get connected, share your work, get feedback, join meetups, and stay updated.</Heading>
+          <Heading lineHeight='48px' color='gray.500'><Text as='span' className='yellow-gradient-color'>Makers</Text> is the community of <Text as='span' className='purple-gradient-color'>developers</Text> and <Text className='red-gradient-color' as='span'>designers</Text> in UAE. Get connected, share your work, join meetups, stay updated and more.</Heading>
         </Flex>
 
         <Flex justifyContent='space-between' alignItems='center'>
