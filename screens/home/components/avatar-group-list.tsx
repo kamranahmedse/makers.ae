@@ -2,7 +2,7 @@ import { Avatar, AvatarGroup } from '@chakra-ui/core';
 
 export function AvatarGroupList() {
   return (
-    <AvatarGroup max={ 20 }>
+    <AvatarGroup max={ 20 } d={ ['none', 'none', 'flex', 'flex'] }>
       <Avatar className='avatar-badge' width={ '35px' } height='35px' borderColor='black' name='Adnan' src='/avatars/adnan.jpeg' />
       <Avatar className='avatar-badge' width={ '35px' } height='35px' borderColor='black' name='Zeeshan' src='/avatars/zeeshan.jpeg' />
       <Avatar className='avatar-badge' width={ '35px' } height='35px' borderColor='black' name='Meabed' src='/avatars/meabed.png' />
