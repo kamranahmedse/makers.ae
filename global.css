@@ -2,6 +2,30 @@ body {
   background-color: #000;
 }
 
+::selection {
+  background: rgba(255, 77, 106, 0.24);
+  color: #FF4D6A;
+  -webkit-text-stroke-width: 0;
+}
+
+.member-grid-img {
+  width: 100%;
+}
+
+.hover-grayscale {
+  transition: all 500ms;
+}
+
+.hover-grayscale:hover > * {
+  filter: grayscale(99%);
+  opacity: 0.8;
+}
+
+.hover-grayscale:hover > *:hover {
+  filter: unset;
+  opacity: 1;
+}
+
 .rounded-full {
   border-radius: 100%;
 }
