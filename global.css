@@ -61,3 +61,10 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.blue-gradient-color {
+  background: linear-gradient(270deg,#5200ff,#c84fb5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

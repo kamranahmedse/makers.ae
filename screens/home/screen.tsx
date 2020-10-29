@@ -16,7 +16,7 @@ export function HomeScreen() {
       </Flex>
 
       <Flex my='40px'>
-        <Heading lineHeight='48px' color='gray.500'><Text as='span' className='yellow-gradient-color'>Makers</Text> is the community of <Text as='span' className='purple-gradient-color'>developers</Text> and <Text className='red-gradient-color' as='span'>designers</Text> in UAE. Get connected, share your work, join meetups, stay updated
+        <Heading lineHeight='48px' color='gray.500'><Text as='span' className='yellow-gradient-color'>Makers</Text> is the community of <Text as='span' className='purple-gradient-color'>developers</Text>, <Text className='red-gradient-color' as='span'>designers</Text> and <Text className='blue-gradient-color' as='span'>tech firms</Text> in UAE. Get connected, share your work, join meetups, stay updated
           and more.</Heading>
       </Flex>
 
