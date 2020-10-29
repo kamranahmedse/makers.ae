@@ -34,7 +34,7 @@ export function HomeScreen() {
 
       <Box mt='90px'>
         <Heading mb='7px' className='yellow-gradient-color' color='gray.100'>90+ Members</Heading>
-        <Text color='gray.400'>We have a diverse group of members, working at known firms in UAE.</Text>
+        <Text color='gray.400'>Get connected with a diverse group of members, working at known firms in UAE.</Text>
         <MembersList />
       </Box>
     </>
