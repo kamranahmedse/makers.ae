@@ -1,4 +1,38 @@
 body {
   background-color: #000;
-  color: #8a8f98;
+}
+
+.rounded-full {
+  border-radius: 100%;
+}
+
+.avatar-badge {
+  cursor: pointer;
+  transition: transform 200ms;
+}
+
+.avatar-badge:hover {
+  z-index: 999 !important;
+  transform: scale(1.15);
+}
+
+.yellow-gradient-color {
+  background: linear-gradient(90deg, #ffbc29, #eadf58);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.purple-gradient-color {
+  background: linear-gradient(270deg, #53a0ec, #57c84f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.red-gradient-color {
+  background: linear-gradient(90deg, #ec6193, #ec4b31);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

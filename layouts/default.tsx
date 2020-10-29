@@ -1,5 +1,6 @@
 import React from 'react';
 import { trackPageview } from '../src/analytics/track-event';
+import { Box } from '@chakra-ui/core';
 
 class DefaultLayout extends React.Component {
   state = {
@@ -12,11 +13,11 @@ class DefaultLayout extends React.Component {
 
   render() {
     return (
-      <div>
+      <Box p='40px'>
         <div className={'body-wrap'}>
           { this.props.children }
         </div>
-      </div>
+      </Box>
     );
   }
 }
