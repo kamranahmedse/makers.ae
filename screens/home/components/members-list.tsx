@@ -24,7 +24,7 @@ export function MembersList() {
       </SimpleGrid>
       <Flex alignItems='center' mt='20px' >
         <Button bg='yellow.400' rounded='20px' px='30px'>All members &rarr;</Button>
-        <Link className='purple-gradient-color' ml='20px'>Become a member</Link>
+        <Link color='gray.400' ml='20px'>Become a member</Link>
       </Flex>
     </Box>
   );
