@@ -12,7 +12,7 @@ export function MembersListItem(props: MembersListItemProps) {
   const { company, designation, imageUrl, title } = props;
 
   return (
-    <Link bg='gray.900'>
+    <Link bg='gray.900' rounded='10px'>
       <Image className='member-grid-img' unsized src={ imageUrl } />
       <Box px='10px' py='15px'>
         <Heading color='gray.100' mb='7px' fontSize='18px'>{ title }</Heading>
