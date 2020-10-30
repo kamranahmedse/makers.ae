@@ -7,7 +7,7 @@ import { AvatarGroupList } from './components/avatar-group-list';
 export function HomeScreen() {
   return (
     <>
-      <Flex justifyContent='space-between' alignItems='center'>
+      <Flex justifyContent='space-between' alignItems='center' mb={'40px'}>
         <Box>
           <Text color='gray.500' fontSize='16px' fontWeight={ 600 }>Developers and designers in UAE</Text>
         </Box>
@@ -17,12 +17,12 @@ export function HomeScreen() {
       </Flex>
 
       <Box>
-        <Flex my='40px'>
+        <Flex>
           <Heading lineHeight='48px' color='gray.500'><Text as='span' className='yellow-gradient-color'>Makers</Text> is the community of <Text as='span' className='purple-gradient-color'>developers</Text>, <Text className='red-gradient-color' as='span'>designers</Text> and <Text className='blue-gradient-color' as='span'>tech
             firms</Text> in UAE. Get connected, share your work, join sessions, be informed and more.</Heading>
         </Flex>
 
-        <Flex justifyContent='space-between' alignItems='center'>
+        <Flex justifyContent='space-between' alignItems='center' mt='30px'>
           <Flex alignItems='center'>
             <Image className='rounded-full' height='48px' width='48px' src='/avatars/kamran.jpeg' />
             <Text ml='15px' as='span' color='gray.500'>
@@ -92,10 +92,38 @@ export function HomeScreen() {
         <Heading mb='7px' className='yellow-gradient-color' color='gray.100'>FAQs</Heading>
         <Text color='gray.400'>Feel free to reach out if there is something we haven't answered</Text>
 
-        <SimpleGrid columns={ 2 } mt='50px'>
+        <SimpleGrid columns={[1, 1, 2, 2 ]} mt='50px' gridGap={ ['25px', '25px', '60px', '60px'] }>
           <Box>
-            <Heading as='h2' fontSize='24px' className='purple-gradient-color'>What is it about?</Heading>
-            <Text color='white'>We aim to strengthen the developer community in the region by bringing them on a single platform.</Text>
+            <Heading as='h2' mb='10px' fontSize='24px' className='purple-gradient-color'>Who can join?</Heading>
+            <Text lineHeight='27px' color='white'>We aim to strengthen the developer community in the region by bringing them on a single platform.</Text>
+          </Box>
+          <Box>
+            <Heading as='h2' mb='10px' fontSize='24px' className='purple-gradient-color'>Do you organize meetups?</Heading>
+            <Text lineHeight='27px' color='white'>We aim to strengthen the developer community in the region by bringing them on a single platform.</Text>
+          </Box>
+          <Box>
+            <Heading as='h2' mb='10px' fontSize='24px' className='purple-gradient-color'>Can I give a talk?</Heading>
+            <Text lineHeight='27px' color='white'>We aim to strengthen the developer community in the region by bringing them on a single platform.</Text>
+          </Box>
+          <Box>
+            <Heading as='h2' mb='10px' fontSize='24px' className='purple-gradient-color'>Do you have a Slack or Discord?</Heading>
+            <Text lineHeight='27px' color='white'>We aim to strengthen the developer community in the region by bringing them on a single platform.</Text>
+          </Box>
+          <Box>
+            <Heading as='h2' mb='10px' fontSize='24px' className='purple-gradient-color'>What's in the newsletter?</Heading>
+            <Text lineHeight='27px' color='white'>We aim to strengthen the developer community in the region by bringing them on a single platform.</Text>
+          </Box>
+          <Box>
+            <Heading as='h2' mb='10px' fontSize='24px' className='purple-gradient-color'>Can I invite my friends?</Heading>
+            <Text lineHeight='27px' color='white'>We aim to strengthen the developer community in the region by bringing them on a single platform.</Text>
+          </Box>
+          <Box>
+            <Heading as='h2' mb='10px' fontSize='24px' className='purple-gradient-color'>How is this website built?</Heading>
+            <Text lineHeight='27px' color='white'>We aim to strengthen the developer community in the region by bringing them on a single platform.</Text>
+          </Box>
+          <Box>
+            <Heading as='h2' mb='10px' fontSize='24px' className='purple-gradient-color'>Can I contribute to the project?</Heading>
+            <Text lineHeight='27px' color='white'>We aim to strengthen the developer community in the region by bringing them on a single platform.</Text>
           </Box>
         </SimpleGrid>
       </Box>
