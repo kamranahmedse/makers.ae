@@ -7,7 +7,7 @@ export function PageHero() {
   return <>
     <Flex>
       <Heading lineHeight='48px' color='gray.500'><Text as='span' className='yellow-gradient-color'>Makers</Text> is the community of <Text as='span' className='purple-gradient-color'>developers</Text>, <Text className='red-gradient-color' as='span'>designers</Text> and <Text className='blue-gradient-color' as='span'>tech
-        firms</Text> in UAE. <Text as='span' d={ ['none', 'none', 'none', 'inline'] }>Get connected, share your work, join sessions, be informed and more.</Text></Heading>
+        firms</Text> focusing on open-source, practical knowledge, tech culture, career growth.</Heading>
     </Flex>
 
     <Flex justifyContent='space-between' alignItems='center' mt='30px'>
