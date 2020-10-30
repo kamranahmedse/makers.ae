@@ -18,9 +18,8 @@ jobs:
         run: |
           npm install -g yarn
           yarn install
-      - name: Generate meta and builld
+      - name: Generate builld
         run: |
-          yarn meta
           yarn build
       - name: Deploy to GitHub Pages
         run: |
