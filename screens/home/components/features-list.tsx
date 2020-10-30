@@ -1,4 +1,4 @@
-import { Box, SimpleGrid, Stack, Text } from '@chakra-ui/core';
+import { Box, Link, SimpleGrid, Stack, Text } from '@chakra-ui/core';
 import { FeatureListItem } from './features-list-item';
 
 export function FeaturesList() {
@@ -10,12 +10,16 @@ export function FeaturesList() {
         <Text lineHeight='32px' fontWeight={ 600 } color='gray.200' fontSize='20px'>The project is fully open-source, there is no fees or any hidden agendas. Goal is to empower the makers in the region.</Text>
       </Box>
       <Stack marginLeft={ [0, 0, '40px', '40px'] }>
-        <FeatureListItem feature={ 'Join our Discord, get connected with the other developers in the region.' } />
+        <FeatureListItem>
+          Join <Link fontWeight={600} color={'yellow.300'} _hover={{ textDecoration: 'none', color: 'yellow.400', }}>our Discord</Link> to get connected with other makers in the region
+        </FeatureListItem>
         <FeatureListItem feature={ 'Bi-weekly sessions on interesting topics.' } />
         <FeatureListItem feature={ 'Learn about the tech stack and how the companies in the region are working.' } />
         <FeatureListItem feature={ 'Find yourself a mentor, ask for advice..' } />
         <FeatureListItem feature={ 'Interviews with the tech leaders.' } />
-        <FeatureListItem feature={ 'Subscribe to our weekly newsletter and stay upto date with the tech updates about the region.' } />
+        <FeatureListItem>
+          Subscribe to our <Link fontWeight={600} color={'yellow.300'} _hover={{ textDecoration: 'none', color: 'yellow.400', }}>weekly newsletter</Link> and stay upto date with the tech updates about the region.
+        </FeatureListItem>
       </Stack>
     </SimpleGrid>
   );
