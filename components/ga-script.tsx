@@ -1,4 +1,6 @@
-import { trackingId } from './ga-script';
+import React from 'react';
+
+export const trackingId = 'G-7YLYMPYKGP';
 
 export function trackPageview(url: string) {
   const _window = window as typeof window & { gtag: any };
@@ -32,3 +34,24 @@ export function trackEvent(options: TrackEventOptions) {
     console.error('Failed sending metrics', err);
   }
 }
+
+const GAScript = () => (
+  <>
+    <script
+      async
+      src={ `https://www.googletagmanager.com/gtag/js?id=${ trackingId }` }
+    />
+    <script
+      dangerouslySetInnerHTML={ {
+        __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${ trackingId }');
+          `
+      } }
+    />
+  </>
+);
+
+export default GAScript;

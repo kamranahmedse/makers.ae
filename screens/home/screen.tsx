@@ -4,8 +4,8 @@ import { FeaturesList } from './components/features-list';
 import { SubscribeBox } from './components/subscribe-box';
 import { FaqList } from './components/faq-list';
 import { PageHero } from './components/page-hero';
-import { TopNav } from '../../src/components/top-nav';
-import { PageFooter } from './components/page-footer';
+import { TopNav } from '../../components/top-nav';
+import { PageFooter } from '../../components/page-footer';
 
 export function HomeScreen() {
   return (

@@ -1,32 +1,26 @@
-import React from "react"
-import NextDocument, {
-  Html,
-  Head,
-  Main,
-  NextScript,
-  DocumentContext,
-} from "next/document"
-import GAScript from '../src/analytics/ga-script';
+import React from 'react';
+import NextDocument, { DocumentContext, Head, Html, Main, NextScript } from 'next/document';
+import GAScript from '../components/ga-script';
 
 class Document extends NextDocument {
   static getInitialProps(ctx: DocumentContext) {
-    return NextDocument.getInitialProps(ctx)
+    return NextDocument.getInitialProps(ctx);
   }
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang='en'>
         <Head>
-          <link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+          <link rel='preload' href='/fonts/inter.woff2' as='font' type='font/woff2' crossOrigin='anonymous' />
         </Head>
         <body>
-          <Main />
-          <NextScript />
-          <GAScript />
+        <Main />
+        <NextScript />
+        <GAScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default Document
+export default Document;

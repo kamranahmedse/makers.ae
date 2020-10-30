@@ -2,8 +2,8 @@ import Head from 'next/head';
 import { DefaultSeo } from 'next-seo';
 import { CSSReset, ThemeProvider } from '@chakra-ui/core';
 import siteConfig from '../configs/site-config';
-import FontFace from '../src/components/font-face';
-import { theme } from '../src/theme';
+import FontFace from '../components/font-face';
+import { theme } from '../theme';
 import '../global.css';
 
 function MyApp({ Component, pageProps }) {
