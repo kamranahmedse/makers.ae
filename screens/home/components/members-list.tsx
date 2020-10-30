@@ -10,11 +10,11 @@ export function MembersList() {
         <MembersListItem title='Kamran Ahmed' designation='Engineering Manager' company='Tradeling' imageUrl='/avatars/kamran.jpeg' />
         <MembersListItem title='Adnan Ahmed' designation='Engineering Manager' company='Tradeling' imageUrl='/avatars/adnan.jpeg' />
         <MembersListItem title='Zeeshan Ahmed' designation='Senior Software Engineer' company='Tradeling' imageUrl='/avatars/zeeshan.jpeg' />
+        <MembersListItem title='Mohamed Meabed' designation='Chief Technology Officer' company='Tradeling' imageUrl='/avatars/meabed.png' />
+        <MembersListItem title='Ahmed Moawad' designation='VP of Engineering' company='Tradeling' imageUrl='/avatars/ahmed.png' />
         <MembersListItem title='Pavlo Lompas' designation='Senior Software Engineer' company='Tradeling' imageUrl='/avatars/pavlo.jpeg' />
         <MembersListItem title='Segun Adebayo' designation='Design System Engineer' company='Tradeling' imageUrl='/avatars/segun.jpeg' />
-        {/*<MembersListItem title='Ming Hu' designation='Software Engineer' company='Tradeling' imageUrl='/avatars/ming.jpeg' />*/}
-        {/*<MembersListItem title='Mohamed Meabed' designation='Chief Technology Officer' company='Tradeling' imageUrl='/avatars/meabed.png' />*/}
-        {/*<MembersListItem title='Ahmed Moawad' designation='VP of Engineering' company='Tradeling' imageUrl='/avatars/ahmed.png' />*/}
+        <MembersListItem title='Ming Hu' designation='Software Engineer' company='Tradeling' imageUrl='/avatars/ming.jpeg' />
         <MembersListItem title='Martian Lee' designation='Lead Frontend Engineer' company='Tradeling' imageUrl='/avatars/martian.jpeg' />
         <MembersListItem title='Numan Mehmood' designation='Product Designer' company='Tradeling' imageUrl='/avatars/noman.jpeg' />
         <MembersListItem title='Mustafa Magdi' designation='Engineering Manager' company='Tradeling' imageUrl='/avatars/mustafa.jpeg' />
