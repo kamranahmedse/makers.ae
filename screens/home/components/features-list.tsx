@@ -1,5 +1,21 @@
-import { Box, Link, SimpleGrid, Stack, Text } from '@chakra-ui/core';
+import { Box, SimpleGrid, Stack, Text } from '@chakra-ui/core';
 import { FeatureListItem } from './features-list-item';
+import Link from 'next/link';
+
+type FeatureLinkProps = {
+  href: string;
+  text: string;
+}
+
+function FeatureLink(props: FeatureLinkProps) {
+  const { href, text } = props;
+
+  return (
+    <Link href={ href }>
+      <a><Text as='span' fontWeight={ 600 } color={ 'yellow.300' } _hover={ { textDecoration: 'none', color: 'yellow.400' } }>{ text }</Text></a>
+    </Link>
+  );
+}
 
 export function FeaturesList() {
   return (
@@ -11,14 +27,14 @@ export function FeaturesList() {
       </Box>
       <Stack marginLeft={ [0, 0, '40px', '40px'] }>
         <FeatureListItem>
-          Join <Link fontWeight={600} color={'yellow.300'} _hover={{ textDecoration: 'none', color: 'yellow.400', }}>our Discord</Link> to get connected with other makers in the region
+          Join <FeatureLink href='/join' text='our Discord' /> to get connected with other makers in the region
         </FeatureListItem>
         <FeatureListItem feature={ 'Bi-weekly sessions on interesting topics.' } />
         <FeatureListItem feature={ 'Learn about the tech stack and how the companies in the region are working.' } />
         <FeatureListItem feature={ 'Find yourself a mentor, ask for advice..' } />
         <FeatureListItem feature={ 'Interviews with the tech leaders.' } />
         <FeatureListItem>
-          Subscribe to our <Link fontWeight={600} color={'yellow.300'} _hover={{ textDecoration: 'none', color: 'yellow.400', }}>weekly newsletter</Link> and stay upto date with the tech updates about the region.
+          Subscribe to our <FeatureLink href='/join' text='weekly newsletter' /> and stay upto date with the tech updates about the region.
         </FeatureListItem>
       </Stack>
     </SimpleGrid>

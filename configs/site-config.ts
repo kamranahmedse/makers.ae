@@ -11,6 +11,7 @@ const siteConfig = {
   },
   repo: {
     url: baseUrl,
+    issuesUrl: `${ baseUrl }/issues/new`,
     editUrl: `${ baseUrl }/edit/develop`,
     blobUrl: `${ baseUrl }/blob/develop`
   },

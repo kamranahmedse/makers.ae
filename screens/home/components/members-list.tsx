@@ -19,6 +19,7 @@ export function MembersList() {
         <MembersListItem title='Numan Mehmood' designation='Product Designer' company='Tradeling' imageUrl='/avatars/noman.jpeg' />
         <MembersListItem title='Mustafa Magdi' designation='Engineering Manager' company='Tradeling' imageUrl='/avatars/mustafa.jpeg' />
         <MembersListItem title='Hany' designation='Software Engineer' company='Tradeling' imageUrl='/avatars/hany.jpeg' />
+        <MembersListItem title='Tauqeer Nasir' designation='Software Engineer' company='Tradeling' imageUrl='/avatars/tauqeer.jpeg' />
         <MembersListItem title='Amad' designation='Software Engineer' company='Tradeling' imageUrl='/avatars/amad.jpeg' />
         <MembersListItem title='Abdallah' designation='Software Engineer' company='Tradeling' imageUrl='/avatars/abdallah.jpeg' />
         <MembersListItem title='Mohamed Sayed' designation='Software Engineer' company='Tradeling' imageUrl='/avatars/maradona.jpeg' />

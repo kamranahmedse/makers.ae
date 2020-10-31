@@ -13,13 +13,13 @@ export function HomeScreen() {
       <TopNav />
       <PageHero />
 
-      <Box mt='90px'>
+      <Box pt='90px' id='community-members'>
         <Heading mb='7px' className='yellow-gradient-color' color='gray.100'>90+ Members</Heading>
         <Text color='gray.400'>Get connected with a diverse group of members, working at known firms in UAE.</Text>
         <MembersList />
       </Box>
 
-      <Box mt='90px'>
+      <Box pt='90px'>
         <Heading mb='15px' className='yellow-gradient-color' color='gray.100'>Why should you Join</Heading>
 
         <FeaturesList />
@@ -29,7 +29,7 @@ export function HomeScreen() {
         </Box>
       </Box>
 
-      <Box mt='90px'>
+      <Box pt='90px' id='faqs'>
         <Heading mb='7px' className='yellow-gradient-color' color='gray.100'>FAQs</Heading>
         <Text color='gray.400'>Feel free to reach out if there is something we haven't answered</Text>
         <FaqList />
