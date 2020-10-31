@@ -14,7 +14,7 @@
   </p>
 </p>
 
-[makers.ae](https://makers.ae) is the community of developers and designers in UAE created with the goal to strengthen the community. 
+[makers.ae](https://makers.ae) is the community of developers and designers in UAE focusing on open-source, practical knowledge, tech culture, career growth and connecting the developers.
 
 ## Why Join Us?
 
