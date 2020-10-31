@@ -11,7 +11,7 @@ export function ProfileScreen() {
       <Link color='gray.400'>&larr; Back to Home</Link>
 
       <SimpleGrid gridTemplateColumns={ ['1fr', '1fr', '200px 1fr', '200px 1fr'] } mt='40px'>
-        <LazyImage width={ '200px' } src='/avatars/kamran.jpeg' rounded='10px' />
+        <LazyImage width={ '200px' } height='auto' skeletonHeight='200px' src='/avatars/kamran.jpeg' rounded='10px' />
         <Box ml={ [0, 0, '30px', '30px'] }>
           <Box mb='30px'>
             <Heading color='gray.100' fontSize='45px' lineHeight='45px' mb='12px'>Kamran Ahmed</Heading>
