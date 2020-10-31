@@ -17,8 +17,8 @@ export function MembersList() {
         overflow="hidden"
         className="hover-grayscale"
       >
-        {members.map((member) => (
-          <MembersListItem {...member} />
+        {members.map((member, i) => (
+          <MembersListItem {...member} key={i} />
         ))}
         {!isExpanded && (
           <Box
