@@ -17,7 +17,7 @@ export function LazyImage(props: LazyImageProps) {
     <ProgressiveImage delay={ 500 } src={ src } placeholder='/avatars/placeholder.png'>
       { (src, loading) => {
         return loading ? (
-          <Skeleton rounded={ rounded } height={ height } minHeight={ minHeight || height } width={ width } d='block' />
+          <Skeleton rounded={ rounded } height={ height || 'auto' } minHeight={ minHeight || height || '200px' } width={ width } d='block' />
         ) : (
           <Image { ...props } />
         );
