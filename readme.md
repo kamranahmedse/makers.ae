@@ -18,7 +18,7 @@
 
 ## Why Join Us?
 
-There are some really talented developers and designers in the region but unlike Europe and America, the community isn't really strong here in UAE. With makers.ae our aim is to bring all the makers of the region together under one umbrella and to facilitate growth.
+There are some really talented developers and designers in the region but unlike Europe or US, the community isn't really strong here in UAE. With makers.ae our aim is to bring all the makers of the region together under one umbrella and to facilitate growth.
 
 The project is fully open-source, there is no fees or any hidden agendas. Goal is to empower the makers in the region.
 
