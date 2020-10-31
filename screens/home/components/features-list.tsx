@@ -12,7 +12,7 @@ function FeatureLink(props: FeatureLinkProps) {
 
   return (
     <Link href={ href }>
-      <a><Text as='span' fontWeight={ 600 } color={ 'yellow.300' } _hover={ { textDecoration: 'none', color: 'yellow.400' } }>{ text }</Text></a>
+      <a><Text as='span' fontWeight={ 600 } color={ 'yellow.300' }>{ text }</Text></a>
     </Link>
   );
 }
