@@ -69,7 +69,7 @@ Yes, apart from being a part of community events, spreading the word, and inviti
 
 
 ## Contributions
-- Report issues,
+- Report issues.
 - Open pull request with improvements
 - Spread the word
 - Reach out with any feedback [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/kamranahmedse.svg?style=social&label=Follow%20%40kamranahmedse)](https://twitter.com/kamranahmedse)
