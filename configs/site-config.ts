@@ -23,7 +23,7 @@ const siteConfig = {
     twitter: {
       handle: '@kamranahmedse',
       site: '@kamranahmedse',
-      cardType: 'summary_large_image'
+      cardType: 'summary'
     },
     openGraph: {
       type: 'website',
@@ -37,8 +37,13 @@ const siteConfig = {
           url: '/og-image.png',
           width: 1240,
           height: 480,
-          alt:
-            'Makers.ae: Community of makers in UAE'
+          alt: 'Makers.ae: Community of makers in UAE'
+        },
+        {
+          url: '/twitter-summary-image.png',
+          width: 120,
+          height: 120,
+          alt: 'Makers.ae: Community of makers in UAE'
         },
         {
           url: '/twitter-og-image.png',
