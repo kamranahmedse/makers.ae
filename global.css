@@ -22,10 +22,6 @@ body {
   opacity: 1;
 }
 
-.rounded-full {
-  border-radius: 100%;
-}
-
 .avatar-badge {
   cursor: pointer;
   transition: transform 200ms;

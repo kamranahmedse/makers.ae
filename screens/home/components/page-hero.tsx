@@ -1,5 +1,4 @@
-import { Flex, Heading, Link, Text } from '@chakra-ui/core';
-import Image from 'next/image';
+import { Flex, Heading, Image, Link, Text } from '@chakra-ui/core';
 import siteConfig from '../../../configs/site-config';
 import { AvatarGroupList } from './avatar-group-list';
 
@@ -12,7 +11,7 @@ export function PageHero() {
 
     <Flex justifyContent='space-between' alignItems='center' mt='30px'>
       <Flex alignItems='center'>
-        <Image className='rounded-full' height='48px' width='48px' src='/avatars/kamran.jpeg' />
+        <Image rounded='100%' height='48px' width='48px' src='/avatars/kamran.jpeg' />
         <Text ml='15px' as='span' color='gray.500'>
           Run by&nbsp;
           <Link target='_blank' color='gray.300' fontWeight={ 700 } href={ siteConfig.author.twitter }>Kamran</Link>
