@@ -8,11 +8,6 @@ body {
   -webkit-text-stroke-width: 0;
 }
 
-.member-grid-img {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-}
-
 .hover-grayscale {
   transition: all 500ms;
 }
