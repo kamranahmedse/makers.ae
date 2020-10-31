@@ -1,6 +1,7 @@
-import { Box, Button, Flex, Link, SimpleGrid } from '@chakra-ui/core';
+import { Box, Button, Flex, SimpleGrid, Text } from '@chakra-ui/core';
 import { MembersListItem } from './members-list-item';
 import { useState } from 'react';
+import Link from 'next/link';
 
 export function MembersList() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -33,7 +34,9 @@ export function MembersList() {
           { !isExpanded && <>All members &darr;</> }
           { isExpanded && <>Show less &uarr;</> }
         </Button>
-        <Link color='gray.400' ml='20px'>Become a member</Link>
+        <Link href='/join'>
+          <a><Text as='span' color='gray.400' ml='20px'>Become a member</Text></a>
+        </Link>
       </Flex>
     </Box>
   );
