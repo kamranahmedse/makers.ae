@@ -14,7 +14,7 @@ export function PageHero() {
         <Image rounded='100%' height='48px' width='48px' src='/avatars/kamran.jpeg' />
         <Text ml='15px' as='span' color='gray.500'>
           Run by&nbsp;
-          <Link target='_blank' color='gray.300' fontWeight={ 700 } href={ siteConfig.author.twitter }>Kamran</Link>
+          <Link _focus={ { outline: 'none', boxShadow: 'none' } } target='_blank' color='gray.300' fontWeight={ 700 } href={ siteConfig.author.twitter }>Kamran</Link>
         </Text>
       </Flex>
       <AvatarGroupList />

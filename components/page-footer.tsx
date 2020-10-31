@@ -48,13 +48,13 @@ export function PageFooter() {
             <Text as='span'><ExternalFooterLink href='mailto:kamranahmed.se@gmail.com' text='Contact us' /></Text>
             <Text as='span'><ExternalFooterLink href={ siteConfig.repo.issuesUrl } text='Feedback' /></Text>
             <Text as='span'><ExternalFooterLink href={ siteConfig.repo.url } text='Contribute' /></Text>
-            <Text as='span'><ExternalFooterLink href={ '#community-members' } isExternal={ false } text='Members' /></Text>
+            <Text as='span'><ExternalFooterLink href={ '/#community-members' } isExternal={ false } text='Members' /></Text>
           </Stack>
           <Stack>
             <Text as='span'><ExternalFooterLink href='mailto:kamranahmed.se@gmail.com' text='Speak at Event' /></Text>
             <Text as='span'><InternalFooterLink href='/join' text='Join Community' /></Text>
             <Text as='span'><ExternalFooterLink href='mailto:kamranahmed.se@gmail.com' text='Sponsor us' /></Text>
-            <Text as='span'><ExternalFooterLink href={ '#faqs' } isExternal={ false } text='FAQs' /></Text>
+            <Text as='span'><ExternalFooterLink href={ '/#faqs' } isExternal={ false } text='FAQs' /></Text>
           </Stack>
         </SimpleGrid>
         <Text mt='20px' color='gray.500'>Made with 🧡 by <ChakraLink _focus={ { boxShadow: 'none', outline: 'none' } } target='_blank' href={ siteConfig.author.twitter } fontWeight={ 600 } color={ 'gray.400' } _hover={ { textDecoration: 'none', color: 'yellow.400' } }>Kamran Ahmed</ChakraLink> in Dubai, UAE</Text>
