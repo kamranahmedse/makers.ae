@@ -1,6 +1,7 @@
-import { Flex, Heading, Image, Link, Text } from '@chakra-ui/core';
+import { Flex, Heading, Link, Text } from '@chakra-ui/core';
 import siteConfig from '../../../configs/site-config';
 import { AvatarGroupList } from './avatar-group-list';
+import { LazyImage } from '../../../components/lazy-image';
 
 export function PageHero() {
   return <>
@@ -11,7 +12,7 @@ export function PageHero() {
 
     <Flex justifyContent='space-between' alignItems='center' mt='30px'>
       <Flex alignItems='center'>
-        <Image rounded='100%' height='48px' width='48px' src='/avatars/kamran.jpeg' />
+        <LazyImage rounded='100%' height='48px' width='48px' src='/avatars/kamran.jpeg' />
         <Text ml='15px' as='span' color='gray.500'>
           Run by&nbsp;
           <Link _focus={ { outline: 'none', boxShadow: 'none' } } target='_blank' color='gray.300' fontWeight={ 700 } href={ siteConfig.author.twitter }>Kamran</Link>
