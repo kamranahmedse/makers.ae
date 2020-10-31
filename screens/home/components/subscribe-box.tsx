@@ -1,4 +1,5 @@
 import { Box, Button, Flex, Heading, Text } from '@chakra-ui/core';
+import Link from 'next/link';
 
 export function SubscribeBox() {
   return (
@@ -8,7 +9,11 @@ export function SubscribeBox() {
         <Text color='gray.400'>Submit your details and we will send you the invite shortly.</Text>
       </Box>
       <Box mt={ ['15px', '15px', 0, 0] }>
-        <Button px='20px' bg='yellow.400' borderRadius='20px'>Join the Community</Button>
+        <Link href={ '/join' }>
+          <a>
+            <Text px='20px' bg='yellow.400' borderRadius='20px' as={ Button }>Join the Community</Text>
+          </a>
+        </Link>
       </Box>
     </Flex>
   );

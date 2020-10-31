@@ -8,7 +8,7 @@ export default function Join() {
   return (
     <DefaultLayout>
       <NextSeo
-        title={ 'Makers.ae — Community of makers in UAE' }
+        title={ 'Join Makers.ae — Community of makers in UAE' }
         description={ 'Makers.ae aims to build a community of developers in UAE.' }
         titleTemplate={ siteConfig.seo.titleTemplate }
       />

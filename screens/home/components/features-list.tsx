@@ -1,4 +1,4 @@
-import { Box, SimpleGrid, Stack, Text } from '@chakra-ui/core';
+import { Box, Link as ChakraLink, SimpleGrid, Stack, Text } from '@chakra-ui/core';
 import { FeatureListItem } from './features-list-item';
 import Link from 'next/link';
 
@@ -12,7 +12,7 @@ function FeatureLink(props: FeatureLinkProps) {
 
   return (
     <Link href={ href }>
-      <a><Text as='span' fontWeight={ 600 } color={ 'yellow.300' }>{ text }</Text></a>
+      <a><Text as='span' _focus={ { outline: 'none', boxShadow: 'none' } } fontWeight={ 600 } color={ 'yellow.300' }>{ text }</Text></a>
     </Link>
   );
 }
@@ -27,7 +27,7 @@ export function FeaturesList() {
       </Box>
       <Stack marginLeft={ [0, 0, '40px', '40px'] }>
         <FeatureListItem>
-          Join <FeatureLink href='/join' text='our Discord' /> to get connected with other makers in the region
+          Join <ChakraLink color='yellow.300' _focus={ { outline: 'none', boxShadow: 'none', textDecoration: 'none' } } fontWeight={ 600 } href='https://discord.gg/GQjdb3HEJ5' target='_blank'>our discord</ChakraLink> to get connected with other makers in the region
         </FeatureListItem>
         <FeatureListItem feature={ 'Bi-weekly sessions on interesting topics.' } />
         <FeatureListItem feature={ 'Learn about the tech stack and how the companies in the region are working.' } />

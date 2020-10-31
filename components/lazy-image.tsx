@@ -5,7 +5,7 @@ import { ImageProps } from '@chakra-ui/core/dist/Image';
 type LazyImageProps = ImageProps & {
   src: string;
   width: string;
-  height: string;
+  height?: string;
   rounded: string;
 };
 

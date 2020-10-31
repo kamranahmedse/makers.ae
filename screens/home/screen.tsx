@@ -14,7 +14,7 @@ export function HomeScreen() {
       <PageHero />
 
       <Box pt='90px' id='community-members'>
-        <Heading mb='7px' className='yellow-gradient-color' color='gray.100'>90+ Members</Heading>
+        <Heading mb='7px' className='yellow-gradient-color' color='gray.100'>Members</Heading>
         <Text color='gray.400'>Get connected with a diverse group of members, working at known firms in UAE.</Text>
         <MembersList />
       </Box>
