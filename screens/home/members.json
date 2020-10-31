@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Kamran Ahmed",
+    "designation": "Engineering Manager",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/kamran.jpeg"
+  },
+  {
+    "title": "Mehmet Akin",
+    "designation": "Software Engineering Lead",
+    "company": "AlTayer",
+    "imageUrl": "/avatars/makin.jpeg"
+  },
+  {
+    "title": "Adnan Ahmed",
+    "designation": "Engineering Manager",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/adnan.jpeg"
+  },
+  {
+    "title": "Adeel Ahsan",
+    "designation": "Lead Engineer",
+    "company": "Tajawal",
+    "imageUrl": "/avatars/adeel.jpg"
+  },
+  {
+    "title": "Zeeshan Ahmed",
+    "designation": "Senior Software Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/zeeshan.jpeg"
+  },
+  {
+    "title": "Aras Atasaygin",
+    "designation": "Engineering Manager",
+    "company": "Altayer",
+    "imageUrl": "/avatars/aras.jpg"
+  },
+  {
+    "title": "Pavlo Lompas",
+    "designation": "Senior Software Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/pavlo.jpeg"
+  },
+  {
+    "title": "Umar Farooq",
+    "designation": "Lead Engineer",
+    "company": "Mart",
+    "imageUrl": "/avatars/umarmehar.jpeg"
+  },
+  {
+    "title": "Ming Hu",
+    "designation": "Software Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/ming.jpeg"
+  },
+  {
+    "title": "Segun Adebayo",
+    "designation": "Design System Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/segun.jpeg"
+  },
+  {
+    "title": "Umar Mehmood",
+    "designation": "Frontend Engineer",
+    "company": "AlTayer",
+    "imageUrl": "/avatars/umar.jpg"
+  },
+  {
+    "title": "Furqan Zafar",
+    "designation": "FullStack Engineer",
+    "company": "AlTayer",
+    "imageUrl": "/avatars/furqan.jpeg"
+  },
+  {
+    "title": "Martian Lee",
+    "designation": "Lead Frontend Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/martian.jpeg"
+  },
+  {
+    "title": "Numan Mehmood",
+    "designation": "Product Designer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/noman.jpeg"
+  },
+  {
+    "title": "Mustafa Magdi",
+    "designation": "Engineering Manager",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/mustafa.jpeg"
+  },
+  {
+    "title": "Hany",
+    "designation": "Software Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/hany.jpeg"
+  },
+  {
+    "title": "Tauqeer Nasir",
+    "designation": "Software Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/tauqeer.jpeg"
+  },
+  {
+    "title": "Amad",
+    "designation": "Software Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/amad.jpeg"
+  },
+  {
+    "title": "Abdallah",
+    "designation": "Software Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/abdallah.jpeg"
+  },
+  {
+    "title": "Mohamed Sayed",
+    "designation": "Software Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/maradona.jpeg"
+  },
+  {
+    "title": "Pranjal Baweja",
+    "designation": "Software Engineer",
+    "company": "Tradeling",
+    "imageUrl": "/avatars/pranjal.jpeg"
+  }
+]
