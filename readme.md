@@ -29,6 +29,16 @@ The project is fully open-source, there is no fees or any hidden agendas. Goal i
 * Interviews with the tech leaders.
 * Subscribe to our [weekly newsletter](https://makers.ae/join) and stay upto date with the tech updates about the region.
 
+## Development
+
+Clone the repository, install the dependencies and start the application
+
+```bash
+git clone https://github.com/kamranahmedse/makers.ae
+yarn install
+yarn dev
+```
+
 ## FAQs
 
 Feel free to open an issue if there is something that we haven't covered.
@@ -57,15 +67,6 @@ The website is OpenSource, it is built with Next.js and is hosted on GitHub page
 ### Can I contribute to the project?
 Yes, apart from being a part of community events, spreading the word, and inviting your friends, you can also contribute to the code. We are open for anyone to suggest, discuss and contribute to the code.
 
-## Development
-
-Clone the repository, install the dependencies and start the application
-
-```bash
-git clone https://github.com/kamranahmedse/roadmap.sh
-yarn install
-yarn dev
-```
 
 ## Contributions
 - Report issues,
