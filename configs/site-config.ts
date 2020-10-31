@@ -18,7 +18,7 @@ const siteConfig = {
   seo: {
     title: 'makers.ae',
     titleTemplate: '%s - makers.ae',
-    description: 'Open community of makers in UAE',
+    description: 'Community of developers and designers in UAE focusing on open-source, practical knowledge, tech culture, career growth.',
     siteUrl: 'https://makers.ae',
     twitter: {
       handle: '@kamranahmedse',
