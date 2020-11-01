@@ -9,15 +9,15 @@ export function MembersList() {
     <Box>
       <SimpleGrid columns={ [1, 2, 3, 4] } mt='40px' gridGap='15px' position='relative' maxHeight={ isExpanded ? undefined : '750px' } overflow='hidden' className='hover-grayscale'>
         <MembersListItem title='Kamran Ahmed' designation='Engineering Manager' company='Tradeling' imageUrl='/avatars/kamran.jpeg' />
+        <MembersListItem title='Mohamed Meabed' designation='Chief Technology Officer' company='Tradeling' imageUrl='/avatars/meabed.png' />
         <MembersListItem title='Mehmet Akin' designation='Software Engineering Lead' company='AlTayer' imageUrl='/avatars/makin.jpeg' />
         <MembersListItem title='Adnan Ahmed' designation='Engineering Manager' company='Tradeling' imageUrl='/avatars/adnan.jpeg' />
         <MembersListItem title='Adeel Ahsan' designation='Lead Engineer' company='Tajawal' imageUrl='/avatars/adeel.jpg' />
         <MembersListItem title='Zeeshan Ahmed' designation='Senior Software Engineer' company='Tradeling' imageUrl='/avatars/zeeshan.jpeg' />
         <MembersListItem title='Aras Atasaygin' designation='Engineering Manager' company='Altayer' imageUrl='/avatars/aras.jpg' />
+        <MembersListItem title='Ahmed Moawad' designation='VP of Engineering' company='Tradeling' imageUrl='/avatars/ahmed.png' />
         <MembersListItem title='Pavlo Lompas' designation='Senior Software Engineer' company='Tradeling' imageUrl='/avatars/pavlo.jpeg' />
         <MembersListItem title='Umar Farooq' designation='Lead Engineer' company='Mart' imageUrl='/avatars/umarmehar.jpeg' />
-        {/*<MembersListItem title='Mohamed Meabed' designation='Chief Technology Officer' company='Tradeling' imageUrl='/avatars/meabed.png' />*/}
-        {/*<MembersListItem title='Ahmed Moawad' designation='VP of Engineering' company='Tradeling' imageUrl='/avatars/ahmed.png' />*/}
         <MembersListItem title='Ming Hu' designation='Software Engineer' company='Tradeling' imageUrl='/avatars/ming.jpeg' />
         <MembersListItem title='Segun Adebayo' designation='Design System Engineer' company='Tradeling' imageUrl='/avatars/segun.jpeg' />
         <MembersListItem title='Umar Mehmood' designation='Frontend Engineer' company='AlTayer' imageUrl='/avatars/umar.jpg' />
