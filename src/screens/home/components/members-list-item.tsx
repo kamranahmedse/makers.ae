@@ -1,6 +1,6 @@
 import { Box, Heading, Link, Text } from '@chakra-ui/core';
 import { LazyImage } from '../../../components/lazy-image';
-import { MemberType } from '../../../utils/members';
+import { MemberType } from '../../../api/members';
 
 type MembersListItemProps = MemberType;
 

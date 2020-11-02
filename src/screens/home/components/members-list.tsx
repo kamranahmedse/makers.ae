@@ -18,10 +18,12 @@ export function MembersList(props: MembersListProps) {
         { members.map(member => (
           <MembersListItem
             key={ member.username }
+            username={ member.username }
             title={ member.title }
             designation={ member.designation }
             company={ member.company }
             imageUrl={ member.imageUrl }
+            joinDate={ member.joinDate }
           />
         )) }
         { !isExpanded && (
