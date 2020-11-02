@@ -1,7 +1,4 @@
-import fs from 'fs';
-import path from 'path';
 import { Command } from './index';
-import members from '../data/members.json';
 
 type ValidateMembersCommandParams = {};
 
