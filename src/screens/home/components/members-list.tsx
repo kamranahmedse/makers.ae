@@ -50,8 +50,7 @@ export function MembersList(props: MembersListProps) {
         </Button>
         <Link href='/join'>
           <a><Text as='span' color='gray.400' ml='20px'>
-            { isDesktopOrLaptop && <>Become a member</> }
-            { !isDesktopOrLaptop && <>Join now</> }
+            { isDesktopOrLaptop ? 'Become a member' :  'Join now' }
             </Text></a>
         </Link>
       </Flex>
