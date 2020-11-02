@@ -1,5 +1,6 @@
 import { Box, Button, Flex, SimpleGrid, Text } from '@chakra-ui/core';
 import { useState } from 'react';
+import { useMediaQuery } from 'react-responsive';
 import Link from 'next/link';
 import { MemberType } from '../../../api/members';
 import { MembersListItem } from './members-list-item';
@@ -11,6 +12,9 @@ type MembersListProps = {
 export function MembersList(props: MembersListProps) {
   const { members } = props;
   const [isExpanded, setIsExpanded] = useState(false);
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  });
 
   return (
     <Box>
@@ -45,7 +49,10 @@ export function MembersList(props: MembersListProps) {
           { isExpanded && <>Show less &uarr;</> }
         </Button>
         <Link href='/join'>
-          <a><Text as='span' color='gray.400' ml='20px'>Become a member</Text></a>
+          <a><Text as='span' color='gray.400' ml='20px'>
+            { isDesktopOrLaptop && <>Become a member</> }
+            { !isDesktopOrLaptop && <>Join now</> }
+            </Text></a>
         </Link>
       </Flex>
     </Box>
