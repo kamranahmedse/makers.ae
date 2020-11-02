@@ -1,6 +1,6 @@
 import { Box, Link as ChakraLink, SimpleGrid, Stack, Text } from '@chakra-ui/core';
 import { FooterSignup } from './footer-signup';
-import siteConfig from '../configs/site-config';
+import siteConfig from '../../configs/site-config';
 import Link from 'next/link';
 
 type ExternalFooterLinkProps = {

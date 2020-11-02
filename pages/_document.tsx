@@ -1,6 +1,6 @@
 import React from 'react';
 import NextDocument, { DocumentContext, Head, Html, Main, NextScript } from 'next/document';
-import GAScript from '../components/ga-script';
+import GAScript from '../src/components/ga-script';
 
 class Document extends NextDocument {
   static getInitialProps(ctx: DocumentContext) {

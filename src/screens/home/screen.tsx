@@ -6,8 +6,15 @@ import { FaqList } from './components/faq-list';
 import { PageHero } from './components/page-hero';
 import { TopNav } from '../../components/top-nav';
 import { PageFooter } from '../../components/page-footer';
+import { MemberType } from '../../api/members';
 
-export function HomeScreen() {
+type HomeScreenProps = {
+  members: MemberType[]
+};
+
+export function HomeScreen(props: HomeScreenProps) {
+  const { members } = props;
+
   return (
     <>
       <TopNav />
@@ -16,7 +23,7 @@ export function HomeScreen() {
       <Box pt='90px' id='community-members'>
         <Heading mb='7px' className='yellow-gradient-color' color='gray.100'>Members</Heading>
         <Text color='gray.400'>Get connected with a diverse group of members, working at known firms in UAE.</Text>
-        <MembersList />
+        <MembersList members={ members } />
       </Box>
 
       <Box pt='90px'>

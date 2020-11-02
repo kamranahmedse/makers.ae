@@ -1,5 +1,5 @@
 import { Flex, Heading, Link, Text } from '@chakra-ui/core';
-import siteConfig from '../../../configs/site-config';
+import siteConfig from '../../../../configs/site-config';
 import { AvatarGroupList } from './avatar-group-list';
 import { LazyImage } from '../../../components/lazy-image';
 

@@ -1,10 +1,18 @@
-import DefaultLayout from '../layouts/default';
+import DefaultLayout from '../src/layouts/default';
 import { NextSeo } from 'next-seo';
 import siteConfig from '../configs/site-config';
 import { Box } from '@chakra-ui/core';
-import { HomeScreen } from '../screens/home/screen';
+import { HomeScreen } from '../src/screens/home/screen';
+import { GetStaticProps, GetStaticPropsResult } from 'next';
+import { getAllMembers, MemberType } from '../src/api/members';
 
-export default function Home() {
+type HomeProps = {
+  members: MemberType[]
+};
+
+export default function Home(props: HomeProps) {
+  const { members } = props;
+
   return (
     <DefaultLayout>
       <NextSeo
@@ -14,8 +22,16 @@ export default function Home() {
       />
 
       <Box maxW='890px' mx='auto'>
-        <HomeScreen />
+        <HomeScreen members={ members } />
       </Box>
     </DefaultLayout>
   );
 }
+
+export const getStaticProps: GetStaticProps = async function (context): Promise<GetStaticPropsResult<HomeProps>> {
+  return {
+    props: {
+      members: getAllMembers()
+    }
+  };
+};

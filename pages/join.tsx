@@ -1,8 +1,8 @@
-import DefaultLayout from '../layouts/default';
+import DefaultLayout from '../src/layouts/default';
 import { NextSeo } from 'next-seo';
 import siteConfig from '../configs/site-config';
 import { Box } from '@chakra-ui/core';
-import { JoinScreen } from '../screens/join/screen';
+import { JoinScreen } from '../src/screens/join/screen';
 
 export default function Join() {
   return (
