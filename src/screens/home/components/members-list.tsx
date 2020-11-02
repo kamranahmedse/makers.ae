@@ -14,7 +14,7 @@ export function MembersList(props: MembersListProps) {
 
   return (
     <Box>
-      <SimpleGrid columns={ [1, 2, 3, 4] } mt='40px' gridGap='15px' position='relative' maxHeight={ isExpanded ? undefined : '750px' } overflow='hidden' className='hover-grayscale'>
+      <SimpleGrid columns={ [1, 3, 5, 6] } mt='40px' gridGap='10px' position='relative' maxHeight={ isExpanded ? undefined : '450px' } overflow='hidden' className='hover-grayscale'>
         { members.map(member => (
           <MembersListItem
             key={ member.username }

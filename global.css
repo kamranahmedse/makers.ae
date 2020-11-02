@@ -13,7 +13,7 @@ body {
 }
 
 .hover-grayscale > * {
-  filter: grayscale(70%);
+  filter: grayscale(90%);
   opacity: 0.8;
 }
 
