@@ -22,7 +22,7 @@ There are some really talented developers and designers in the region but unlike
 
 The project is fully open-source, there is no fees or any hidden agendas. Goal is to empower the makers in the region.
 
-* Join [our discord](https://discord.gg/GQjdb3HEJ5) to get connected with other makers in the region
+* Join [our discord](https://discord.gg/3BGu7UFCaU) to get connected with other makers in the region
 * Bi-weekly sessions on interesting topics.
 * Learn about the tech stack and how the companies in the region are working.
 * Find yourself a mentor, ask for advice..

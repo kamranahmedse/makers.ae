@@ -27,7 +27,7 @@ export function FeaturesList() {
       </Box>
       <Stack marginLeft={ [0, 0, '40px', '40px'] }>
         <FeatureListItem>
-          Join <ChakraLink color='yellow.300' _focus={ { outline: 'none', boxShadow: 'none', textDecoration: 'none' } } fontWeight={ 600 } href='https://discord.gg/GQjdb3HEJ5' target='_blank'>our discord</ChakraLink> to get connected with other makers in the region
+          Join <ChakraLink color='yellow.300' _focus={ { outline: 'none', boxShadow: 'none', textDecoration: 'none' } } fontWeight={ 600 } href='https://discord.gg/3BGu7UFCaU' target='_blank'>our discord</ChakraLink> to get connected with other makers in the region
         </FeatureListItem>
         <FeatureListItem feature={ 'Bi-weekly sessions on interesting topics.' } />
         <FeatureListItem feature={ 'Learn about the tech stack and how the companies in the region are working.' } />
