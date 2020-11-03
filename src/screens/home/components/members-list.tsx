@@ -45,7 +45,10 @@ export function MembersList(props: MembersListProps) {
           { isExpanded && <>Show less &uarr;</> }
         </Button>
         <Link href='/join'>
-          <a><Text as='span' color='gray.400' ml='20px'>Become a member</Text></a>
+          <a>
+            <Text d={['none', 'none', 'inline', 'inline']} as='span' color='gray.400' ml='20px'>Become a member</Text>
+            <Text d={['inline', 'inline', 'none', 'none']} as='span' color='gray.400' ml='20px'>Join now</Text>
+          </a>
         </Link>
       </Flex>
     </Box>
