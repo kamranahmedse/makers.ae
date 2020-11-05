@@ -9,6 +9,9 @@ const siteConfig = {
     linkedin: 'https://linkedin.com/in/kaamranahmed',
     email: 'kamranahmed.se@gmail.com'
   },
+  discord: {
+    joinUrl: 'https://discord.gg/GQjdb3HEJ5'
+  },
   repo: {
     url: baseUrl,
     issuesUrl: `${ baseUrl }/issues/new`,
