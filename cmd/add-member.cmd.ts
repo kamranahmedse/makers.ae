@@ -45,10 +45,11 @@ async function validateUsername(username: Answer["username"]) {
   if (username.length < 4) {
     return "length must be at least 4";
   } else {
-    const directory = `${membersDir}/${username}`;
 
-    if (!fs.existsSync(directory)) {
-      fs.mkdirSync(directory);
+    const memberDir = path.join(membersDir, username);
+
+    if (!fs.existsSync(memberDir)) {
+      fs.mkdirSync(memberDir);
       return true;
     } else {
       return "username already exist";
