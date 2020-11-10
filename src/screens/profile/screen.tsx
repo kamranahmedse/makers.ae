@@ -7,7 +7,7 @@ import { memberProfileType } from '../../../pages/profile/[name]';
 
 
 export function ProfileScreen({ profile }: memberProfileType) {
-  const { username, imageUrl, designation, company, content } = profile;
+  const { title, imageUrl, designation, company, content } = profile;
 
   return (
     <>
@@ -19,7 +19,7 @@ export function ProfileScreen({ profile }: memberProfileType) {
       <LazyImage width={'200px'} height='auto' skeletonHeight='200px' src={imageUrl} rounded='10px' />
         <Box ml={ [0, 0, '30px', '30px'] }  mt={ ['20px', 0] }>
           <Box mb='30px'>
-            <Heading color='gray.100' fontSize='45px' lineHeight='45px' mb='12px'>{username}</Heading>
+            <Heading color='gray.100' fontSize='45px' lineHeight='45px' mb='12px'>{title}</Heading>
             <Text color='gray.400' fontSize='17px'>{designation} at {company}</Text>
           </Box>
 
