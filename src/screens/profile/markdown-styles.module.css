@@ -1,0 +1,18 @@
+
+  .bioContent {
+    margin-bottom: 20px;
+  }
+  
+  .bioContent p {
+    color: #A0AEC0;
+    margin-bottom: 18px;
+  }
+  
+  .bioContent a {
+    color: #ecc94b;
+    font-weight: 500;
+  }
+  .bioContent a:hover {
+    text-decoration: underline;
+  }
+  
