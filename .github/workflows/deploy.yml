@@ -18,7 +18,7 @@ jobs:
         run: |
           npm install -g yarn
           yarn install
-      - name: Generate builld
+      - name: Generate build
         run: |
           yarn build
       - name: Deploy to GitHub Pages
